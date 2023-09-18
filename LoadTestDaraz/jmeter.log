@@ -1,0 +1,359 @@
+2023-09-19 03:06:32,953 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-09-19 03:06:32,963 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\apache-jmeter-5.6.2\bin\user.properties
+2023-09-19 03:06:32,963 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\apache-jmeter-5.6.2\bin\system.properties
+2023-09-19 03:06:32,974 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-09-19 03:06:32,974 INFO o.a.j.JMeter: Version 5.6.2
+2023-09-19 03:06:32,974 INFO o.a.j.JMeter: java.version=20.0.2
+2023-09-19 03:06:32,974 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-09-19 03:06:32,974 INFO o.a.j.JMeter: os.name=Windows 10
+2023-09-19 03:06:32,974 INFO o.a.j.JMeter: os.arch=amd64
+2023-09-19 03:06:32,974 INFO o.a.j.JMeter: os.version=10.0
+2023-09-19 03:06:32,974 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-09-19 03:06:32,974 INFO o.a.j.JMeter: java.awt.headless=true
+2023-09-19 03:06:32,974 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-09-19 03:06:32,974 INFO o.a.j.JMeter: Available Processors =6
+2023-09-19 03:06:32,982 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-09-19 03:06:32,982 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-09-19 03:06:32,982 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\apache-jmeter-5.6.2
+2023-09-19 03:06:32,982 INFO o.a.j.JMeter: user.dir  =E:\Load Test\LoadTestDaraz\LoadTestDaraz
+2023-09-19 03:06:32,982 INFO o.a.j.JMeter: PWD       =E:\Load Test\LoadTestDaraz\LoadTestDaraz
+2023-09-19 03:06:32,982 INFO o.a.j.JMeter: IP: 192.168.1.104 Name: DESKTOP-A2R8RVN FullName: DESKTOP-A2R8RVN
+2023-09-19 03:06:32,993 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'E:\Load Test\LoadTestDaraz\LoadTestDaraz\reports'
+2023-09-19 03:06:32,993 INFO o.a.j.s.FileServer: Default base='E:\Load Test\LoadTestDaraz\LoadTestDaraz'
+2023-09-19 03:06:32,993 INFO o.a.j.s.FileServer: Set new base='E:\Load Test\LoadTestDaraz\LoadTestDaraz'
+2023-09-19 03:06:33,163 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-09-19 03:06:33,183 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-09-19 03:06:33,183 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-09-19 03:06:33,183 INFO o.a.j.s.SaveService: Loading file: E:\Load Test\LoadTestDaraz\LoadTestDaraz\LoadTestDaraz.jmx
+2023-09-19 03:06:33,237 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-19 03:06:33,237 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-19 03:06:33,237 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-19 03:06:33,237 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-19 03:06:33,237 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-09-19 03:06:33,237 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-09-19 03:06:33,253 INFO o.a.j.JMeter: Creating summariser <summary>
+2023-09-19 03:06:33,263 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2023-09-19 03:06:33,263 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: E:\Load Test\LoadTestDaraz\LoadTestDaraz\report.csv
+2023-09-19 03:06:33,263 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Program Files\apache-jmeter-5.6.2\bin\reportgenerator.properties
+2023-09-19 03:06:33,263 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2023-09-19 03:06:33,263 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2023-09-19 03:06:33,263 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2023-09-19 03:06:33,263 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2023-09-19 03:06:33,263 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2023-09-19 03:06:33,263 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2023-09-19 03:06:33,263 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2023-09-19 03:06:33,263 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2023-09-19 03:06:33,263 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2023-09-19 03:06:33,273 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2023-09-19 03:06:33,274 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2023-09-19 03:06:33,282 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-19 03:06:33,282 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-19 03:06:33,282 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-19 03:06:33,293 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-09-19 03:06:33,293 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-09-19 03:06:33,363 INFO o.a.j.JMeter: Running test (1695071193363)
+2023-09-19 03:06:33,374 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : ThreadLoadTestDaraz
+2023-09-19 03:06:33,374 INFO o.a.j.e.StandardJMeterEngine: Starting 70 threads for group ThreadLoadTestDaraz.
+2023-09-19 03:06:33,374 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-19 03:06:33,374 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=70 ramp-up=4 delayedStart=false
+2023-09-19 03:06:33,388 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-1
+2023-09-19 03:06:33,399 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-19 03:06:33,399 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-19 03:06:33,403 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-A2R8RVN
+2023-09-19 03:06:33,409 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-09-19 03:06:33,410 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-09-19 03:06:33,410 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2023-09-19 03:06:33,410 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-09-19 03:06:33,410 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-09-19 03:06:33,437 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-2
+2023-09-19 03:06:33,494 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-3
+2023-09-19 03:06:33,550 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-4
+2023-09-19 03:06:33,605 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-5
+2023-09-19 03:06:33,625 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-09-19 03:06:33,631 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-09-19 03:06:33,631 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-09-19 03:06:33,662 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-6
+2023-09-19 03:06:33,718 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-7
+2023-09-19 03:06:33,738 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-09-19 03:06:33,742 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-09-19 03:06:33,742 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-09-19 03:06:33,774 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-8
+2023-09-19 03:06:33,832 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-9
+2023-09-19 03:06:33,890 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-10
+2023-09-19 03:06:33,945 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-11
+2023-09-19 03:06:34,007 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-12
+2023-09-19 03:06:34,061 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-13
+2023-09-19 03:06:34,117 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-14
+2023-09-19 03:06:34,175 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-15
+2023-09-19 03:06:34,233 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-16
+2023-09-19 03:06:34,288 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-17
+2023-09-19 03:06:34,346 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-18
+2023-09-19 03:06:34,403 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-19
+2023-09-19 03:06:34,459 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-20
+2023-09-19 03:06:34,516 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-21
+2023-09-19 03:06:34,572 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-22
+2023-09-19 03:06:34,629 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-23
+2023-09-19 03:06:34,687 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-24
+2023-09-19 03:06:34,744 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-25
+2023-09-19 03:06:34,801 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-26
+2023-09-19 03:06:34,857 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-27
+2023-09-19 03:06:34,914 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-28
+2023-09-19 03:06:34,972 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-29
+2023-09-19 03:06:35,029 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-30
+2023-09-19 03:06:35,085 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-31
+2023-09-19 03:06:35,142 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-32
+2023-09-19 03:06:35,200 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-33
+2023-09-19 03:06:35,257 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-34
+2023-09-19 03:06:35,314 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-35
+2023-09-19 03:06:35,370 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-36
+2023-09-19 03:06:35,428 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-37
+2023-09-19 03:06:35,485 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-38
+2023-09-19 03:06:35,542 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-39
+2023-09-19 03:06:35,599 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-40
+2023-09-19 03:06:35,655 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-41
+2023-09-19 03:06:35,712 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-42
+2023-09-19 03:06:35,769 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-43
+2023-09-19 03:06:35,827 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-44
+2023-09-19 03:06:35,883 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-45
+2023-09-19 03:06:35,940 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-46
+2023-09-19 03:06:35,997 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-47
+2023-09-19 03:06:36,055 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-48
+2023-09-19 03:06:36,112 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-49
+2023-09-19 03:06:36,169 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-50
+2023-09-19 03:06:36,224 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-51
+2023-09-19 03:06:36,281 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-52
+2023-09-19 03:06:36,338 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-53
+2023-09-19 03:06:36,396 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-54
+2023-09-19 03:06:36,454 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-55
+2023-09-19 03:06:36,511 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-56
+2023-09-19 03:06:36,567 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-57
+2023-09-19 03:06:36,624 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-58
+2023-09-19 03:06:36,681 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-59
+2023-09-19 03:06:36,739 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-60
+2023-09-19 03:06:36,796 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-61
+2023-09-19 03:06:36,852 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-62
+2023-09-19 03:06:36,911 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-63
+2023-09-19 03:06:36,966 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-64
+2023-09-19 03:06:37,025 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-65
+2023-09-19 03:06:37,082 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-66
+2023-09-19 03:06:37,139 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-67
+2023-09-19 03:06:37,196 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-68
+2023-09-19 03:06:37,252 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-69
+2023-09-19 03:06:37,309 INFO o.a.j.t.JMeterThread: Thread started: ThreadLoadTestDaraz 1-70
+2023-09-19 03:07:30,243 INFO o.a.j.r.Summariser: summary +     23 in 00:00:57 =    0.4/s Avg: 47678 Min: 41287 Max: 55457 Err:     0 (0.00%) Active: 70 Started: 70 Finished: 0
+2023-09-19 03:08:01,167 INFO o.a.j.r.Summariser: summary +     30 in 00:00:31 =    1.0/s Avg: 63419 Min: 36447 Max: 83597 Err:     0 (0.00%) Active: 70 Started: 70 Finished: 0
+2023-09-19 03:08:01,168 INFO o.a.j.r.Summariser: summary =     53 in 00:01:28 =    0.6/s Avg: 56588 Min: 36447 Max: 83597 Err:     0 (0.00%)
+2023-09-19 03:08:30,200 INFO o.a.j.r.Summariser: summary +     35 in 00:00:29 =    1.2/s Avg: 68602 Min: 40097 Max: 113075 Err:     0 (0.00%) Active: 70 Started: 70 Finished: 0
+2023-09-19 03:08:30,200 INFO o.a.j.r.Summariser: summary =     88 in 00:01:57 =    0.8/s Avg: 61366 Min: 36447 Max: 113075 Err:     0 (0.00%)
+2023-09-19 03:09:01,333 INFO o.a.j.r.Summariser: summary +     27 in 00:00:31 =    0.9/s Avg: 65765 Min: 40487 Max: 144308 Err:     0 (0.00%) Active: 70 Started: 70 Finished: 0
+2023-09-19 03:09:01,333 INFO o.a.j.r.Summariser: summary =    115 in 00:02:28 =    0.8/s Avg: 62399 Min: 36447 Max: 144308 Err:     0 (0.00%)
+2023-09-19 03:09:30,775 INFO o.a.j.r.Summariser: summary +     31 in 00:00:29 =    1.1/s Avg: 61480 Min:  5275 Max: 172809 Err:     2 (6.45%) Active: 70 Started: 70 Finished: 0
+2023-09-19 03:09:30,775 INFO o.a.j.r.Summariser: summary =    146 in 00:02:57 =    0.8/s Avg: 62204 Min:  5275 Max: 172809 Err:     2 (1.37%)
+2023-09-19 03:09:36,776 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-51
+2023-09-19 03:09:36,776 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-51
+2023-09-19 03:09:38,764 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-15
+2023-09-19 03:09:38,764 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-15
+2023-09-19 03:09:39,213 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-56
+2023-09-19 03:09:39,213 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-56
+2023-09-19 03:09:40,055 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-22
+2023-09-19 03:09:40,055 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-22
+2023-09-19 03:09:41,813 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-53
+2023-09-19 03:09:41,813 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-53
+2023-09-19 03:09:42,847 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-38
+2023-09-19 03:09:42,847 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-38
+2023-09-19 03:09:43,688 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-69
+2023-09-19 03:09:43,688 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-69
+2023-09-19 03:09:48,883 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-25
+2023-09-19 03:09:48,883 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-25
+2023-09-19 03:09:48,976 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-17
+2023-09-19 03:09:48,976 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-17
+2023-09-19 03:09:49,526 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-20
+2023-09-19 03:09:49,526 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-20
+2023-09-19 03:09:52,244 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-64
+2023-09-19 03:09:52,244 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-64
+2023-09-19 03:09:54,033 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-12
+2023-09-19 03:09:54,033 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-12
+2023-09-19 03:09:58,563 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-9
+2023-09-19 03:09:58,563 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-9
+2023-09-19 03:10:00,036 INFO o.a.j.r.Summariser: summary +     42 in 00:00:29 =    1.4/s Avg: 58238 Min:  1852 Max: 190772 Err:     1 (2.38%) Active: 57 Started: 70 Finished: 13
+2023-09-19 03:10:00,036 INFO o.a.j.r.Summariser: summary =    188 in 00:03:27 =    0.9/s Avg: 61318 Min:  1852 Max: 190772 Err:     3 (1.60%)
+2023-09-19 03:10:00,036 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-26
+2023-09-19 03:10:00,036 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-26
+2023-09-19 03:10:01,143 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-18
+2023-09-19 03:10:01,143 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-18
+2023-09-19 03:10:01,543 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-34
+2023-09-19 03:10:01,543 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-34
+2023-09-19 03:10:01,681 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-66
+2023-09-19 03:10:01,681 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-66
+2023-09-19 03:10:04,282 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-58
+2023-09-19 03:10:04,282 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-58
+2023-09-19 03:10:09,765 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-21
+2023-09-19 03:10:09,765 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-21
+2023-09-19 03:10:09,885 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-1
+2023-09-19 03:10:09,885 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-1
+2023-09-19 03:10:10,583 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-24
+2023-09-19 03:10:10,583 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-24
+2023-09-19 03:10:13,747 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-7
+2023-09-19 03:10:13,747 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-7
+2023-09-19 03:10:14,376 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-61
+2023-09-19 03:10:14,376 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-61
+2023-09-19 03:10:14,677 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-2
+2023-09-19 03:10:14,677 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-2
+2023-09-19 03:10:16,823 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-49
+2023-09-19 03:10:16,823 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-49
+2023-09-19 03:10:17,811 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-32
+2023-09-19 03:10:17,811 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-32
+2023-09-19 03:10:19,019 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-63
+2023-09-19 03:10:19,019 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-63
+2023-09-19 03:10:19,207 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-45
+2023-09-19 03:10:19,207 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-45
+2023-09-19 03:10:19,783 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-52
+2023-09-19 03:10:19,783 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-52
+2023-09-19 03:10:20,425 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-5
+2023-09-19 03:10:20,425 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-5
+2023-09-19 03:10:21,135 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-14
+2023-09-19 03:10:21,135 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-14
+2023-09-19 03:10:21,353 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-29
+2023-09-19 03:10:21,353 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-29
+2023-09-19 03:10:22,167 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-36
+2023-09-19 03:10:22,167 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-36
+2023-09-19 03:10:22,450 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-54
+2023-09-19 03:10:22,450 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-54
+2023-09-19 03:10:23,186 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-50
+2023-09-19 03:10:23,186 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-50
+2023-09-19 03:10:23,543 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-67
+2023-09-19 03:10:23,543 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-67
+2023-09-19 03:10:24,882 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-3
+2023-09-19 03:10:24,882 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-3
+2023-09-19 03:10:25,295 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-30
+2023-09-19 03:10:25,295 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-30
+2023-09-19 03:10:25,666 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-39
+2023-09-19 03:10:25,666 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-39
+2023-09-19 03:10:26,203 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-8
+2023-09-19 03:10:26,203 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-8
+2023-09-19 03:10:26,644 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-42
+2023-09-19 03:10:26,644 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-42
+2023-09-19 03:10:28,465 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-70
+2023-09-19 03:10:28,465 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-70
+2023-09-19 03:10:29,265 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-57
+2023-09-19 03:10:29,265 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-57
+2023-09-19 03:10:29,886 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-68
+2023-09-19 03:10:29,886 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-68
+2023-09-19 03:10:30,653 INFO o.a.j.r.Summariser: summary +     51 in 00:00:31 =    1.7/s Avg: 52506 Min:  1953 Max: 214478 Err:     1 (1.96%) Active: 26 Started: 70 Finished: 44
+2023-09-19 03:10:30,653 INFO o.a.j.r.Summariser: summary =    239 in 00:03:57 =    1.0/s Avg: 59438 Min:  1852 Max: 214478 Err:     4 (1.67%)
+2023-09-19 03:10:30,653 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-37
+2023-09-19 03:10:30,653 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-37
+2023-09-19 03:10:30,983 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-46
+2023-09-19 03:10:30,983 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-46
+2023-09-19 03:10:32,387 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-41
+2023-09-19 03:10:32,387 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-41
+2023-09-19 03:10:32,424 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-19
+2023-09-19 03:10:32,424 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-19
+2023-09-19 03:10:32,965 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-11
+2023-09-19 03:10:32,965 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-11
+2023-09-19 03:10:34,263 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-60
+2023-09-19 03:10:34,263 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-60
+2023-09-19 03:10:34,525 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-40
+2023-09-19 03:10:34,525 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-40
+2023-09-19 03:10:35,393 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-16
+2023-09-19 03:10:35,393 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-16
+2023-09-19 03:10:35,625 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-48
+2023-09-19 03:10:35,625 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-48
+2023-09-19 03:10:35,727 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-65
+2023-09-19 03:10:35,727 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-65
+2023-09-19 03:10:36,988 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-47
+2023-09-19 03:10:36,988 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-47
+2023-09-19 03:10:37,369 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-27
+2023-09-19 03:10:37,369 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-27
+2023-09-19 03:10:37,403 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-44
+2023-09-19 03:10:37,403 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-44
+2023-09-19 03:10:37,511 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-28
+2023-09-19 03:10:37,511 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-28
+2023-09-19 03:10:37,757 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-43
+2023-09-19 03:10:37,757 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-43
+2023-09-19 03:10:40,189 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-4
+2023-09-19 03:10:40,189 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-4
+2023-09-19 03:10:41,263 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-59
+2023-09-19 03:10:41,263 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-59
+2023-09-19 03:10:42,372 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-33
+2023-09-19 03:10:42,372 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-33
+2023-09-19 03:10:42,962 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-35
+2023-09-19 03:10:42,962 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-35
+2023-09-19 03:10:43,964 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-13
+2023-09-19 03:10:43,964 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-13
+2023-09-19 03:10:44,602 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-55
+2023-09-19 03:10:44,602 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-55
+2023-09-19 03:10:55,173 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-31
+2023-09-19 03:10:55,173 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-31
+2023-09-19 03:11:02,945 INFO o.a.j.r.Summariser: summary +     34 in 00:00:32 =    1.1/s Avg: 33487 Min:   831 Max: 262574 Err:     3 (8.82%) Active: 4 Started: 70 Finished: 66
+2023-09-19 03:11:02,947 INFO o.a.j.r.Summariser: summary =    273 in 00:04:30 =    1.0/s Avg: 56206 Min:   831 Max: 262574 Err:     7 (2.56%)
+2023-09-19 03:11:07,481 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-62
+2023-09-19 03:11:07,481 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-62
+2023-09-19 03:11:15,642 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-10
+2023-09-19 03:11:15,642 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-10
+2023-09-19 03:11:34,367 INFO o.a.j.r.Summariser: summary +      4 in 00:00:31 =    0.1/s Avg: 77859 Min:  2127 Max: 214818 Err:     2 (50.00%) Active: 2 Started: 70 Finished: 68
+2023-09-19 03:11:34,367 INFO o.a.j.r.Summariser: summary =    277 in 00:05:01 =    0.9/s Avg: 56518 Min:   831 Max: 262574 Err:     9 (3.25%)
+2023-09-19 03:11:36,984 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-23
+2023-09-19 03:11:36,984 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-23
+2023-09-19 03:11:42,686 INFO o.a.j.t.JMeterThread: Thread is done: ThreadLoadTestDaraz 1-6
+2023-09-19 03:11:42,686 INFO o.a.j.t.JMeterThread: Thread finished: ThreadLoadTestDaraz 1-6
+2023-09-19 03:11:42,686 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-19 03:11:42,686 INFO o.a.j.r.Summariser: summary +      3 in 00:00:08 =    0.4/s Avg: 68597 Min:  2620 Max: 199860 Err:     1 (33.33%) Active: 0 Started: 70 Finished: 70
+2023-09-19 03:11:42,686 INFO o.a.j.r.Summariser: summary =    280 in 00:05:09 =    0.9/s Avg: 56648 Min:   831 Max: 262574 Err:    10 (3.57%)
+2023-09-19 03:11:42,686 INFO o.a.j.JMeter: Generating Dashboard
+2023-09-19 03:11:42,686 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2023-09-19 03:11:42,702 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2023-09-19 03:11:42,803 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2023-09-19 03:11:42,803 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2023-09-19 03:11:42,803 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2023-09-19 03:11:42,803 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2023-09-19 03:11:42,803 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2023-09-19 03:11:42,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2023-09-19 03:11:42,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2023-09-19 03:11:42,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2023-09-19 03:11:42,823 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2023-09-19 03:11:42,833 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2023-09-19 03:11:42,833 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2023-09-19 03:11:42,833 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2023-09-19 03:11:42,835 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2023-09-19 03:11:42,835 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1960 samples
+2023-09-19 03:11:42,835 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2023-09-19 03:11:42,835 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2023-09-19 03:11:42,835 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2023-09-19 03:11:42,835 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2023-09-19 03:11:42,835 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2023-09-19 03:11:42,835 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2023-09-19 03:11:42,842 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2023-09-19 03:11:42,842 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2023-09-19 03:11:42,842 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2023-09-19 03:11:42,842 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2023-09-19 03:11:42,842 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 4200 samples
+2023-09-19 03:11:42,842 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 840 samples
+2023-09-19 03:11:42,842 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 280 samples
+2023-09-19 03:11:42,842 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 280 samples produced in 115ms on channel 0
+2023-09-19 03:11:42,842 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2023-09-19 03:11:42,956 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2023-09-19 03:11:42,956 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2023-09-19 03:11:42,956 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2023-09-19 03:11:42,956 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2023-09-19 03:11:42,956 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to E:\Load Test\LoadTestDaraz\LoadTestDaraz\reports\statistics.json
+2023-09-19 03:11:42,996 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2023-09-19 03:11:43,003 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: E:\Load Test\LoadTestDaraz\LoadTestDaraz\reports
+2023-09-19 03:11:43,095 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: E:\Load Test\LoadTestDaraz\LoadTestDaraz\reports, creating folder structure
+2023-09-19 03:11:43,098 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Program Files\apache-jmeter-5.6.2\bin\report-template' to 'E:\Load Test\LoadTestDaraz\LoadTestDaraz\reports', got message: E:\Load Test\LoadTestDaraz\LoadTestDaraz\reports, found non empty folder with following content [E:\Load Test\LoadTestDaraz\LoadTestDaraz\reports\statistics.json], will be ignored
+2023-09-19 03:11:43,322 INFO o.a.j.JMeter: Dashboard generated
